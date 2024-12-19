@@ -19,6 +19,7 @@ const AllCategory = () => {
   const [activeCategoryId, setActiveCategoryId] = useState(null);
 
   const handleOnClick = (id) => {
+    
     setActiveCategoryId(id); 
   };
 
